@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "header": {"reel_id": "AMP", "role": "amplitude", "serial": "track-amp-001"},
+  "records": [
+    {"kind": "note", "payload": {"entry": "first mounted for north-7"}},
+    {
+      "kind": "legacy_amplitude_v0",
+      "payload": {
+        "release": "legacy-201", "recording": "legacy-recording-201",
+        "left": ["AMP", "track-amp-001"], "right": ["QUAL", "track-qual-001"],
+        "left_ordinal": 2, "right_ordinal": 1, "count": 2,
+        "rows": [{"index": 0, "position": 14, "value": 9}, {"index": 1, "position": 2, "value": null}]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "source": {"device_id": "track-car-07", "section": "north-7"},
+  "A": {
+    "submission": "morning-A",
+    "rows": [
+      {"position": 30, "amplitude": "0.017", "unit": "mV", "status": "OK"},
+      {"position": 9, "amplitude": 23, "unit": "uV", "status": "RECHECK"}
+    ]
+  },
+  "B": {
+    "submission": "morning-B",
+    "rows": [
+      {"position": 47, "amplitude": null, "unit": "mV", "status": "OK"},
+      {"position": 2, "amplitude": 0, "unit": "uV", "status": "OK"},
+      {"position": 31, "amplitude": 23, "unit": "uV", "status": "RECHECK"},
+      {"position": 18, "amplitude": null, "unit": "uV", "status": "BAD"}
+    ]
+  }
+}
