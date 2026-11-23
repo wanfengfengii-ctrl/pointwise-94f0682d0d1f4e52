@@ -3,6 +3,7 @@ from collections.abc import Callable
 from issue.allocate import CandidateRelease, ReleaseReceipt, allocate_candidate, build_receipt
 from issue.recover import recover_request
 from issue.requests import RequestBinding, RequestConflict, bind_request, find_request
+from issue.unload import issue_unload_permit, publish_after_unload
 from prepare.catalog import PreparedBatch, PreparedCatalog
 from reels.append import append_record
 from reels.records import RecordAddress
